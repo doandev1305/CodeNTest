@@ -1,0 +1,8 @@
+# package directories
+node_modules
+index.js
+# Server directories
+.env
+yarn.lock
+package-lock.json
+.vscode
