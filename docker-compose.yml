@@ -1,0 +1,8 @@
+version: '3'
+services:
+  CodeNTest:
+    image: code-no-test:latest
+#    command: npm start
+    container_name: code-no-test
+    ports:
+      - "3000:3000"
