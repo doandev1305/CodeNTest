@@ -2,7 +2,7 @@
 node_modules
 # index.js
 # Server directories
-.env
+# .env
 yarn.lock
 package-lock.json
 .vscode

@@ -14,7 +14,7 @@ const paymentHandler = async (req, res) => {
     console.log(req.body)
     const session = await _candyPay.session.create({
       success_url: `${process.env.STATIC_URL}/success`,
-      cancel_url: `${process.env.STATIC_URL}/cancel`,
+      cancel_url: `${process.env.STATIC_URL}/failure`,
       // additional SPL tokens, SOL and USDC are the supported tokens by default
       items: req.body.items,
       shipping_fees: 0.001,
